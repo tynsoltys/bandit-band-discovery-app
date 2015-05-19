@@ -40,11 +40,32 @@ a {
 	}
 }
 
+h1.logo {
+	width: 50%;
+	margin: 80px auto;
+	font-size: 60px;
+	color:$llred;
+	margin-bottom: 20px;
+	font-weight: 800;
+	text-transform: lowercase;
+	letter-spacing: -1px;
+	// font-style: italic;
+	text-shadow: $shadow;
+	i {
+		display: inline;
+		color:$lg;
+		display: block;
+		text-shadow: $shadow;
+	}
+
+
+}
+
 h1 {
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	font-weight: 200;
-	margin-top: 100px;
+	margin-top: 30px;
 	margin-bottom: 0;
 
 }
@@ -346,7 +367,7 @@ ul.genreArray {
 
 
 .albumContainer {
-	flex:1 0 300px;
+	flex:1 0 50%;
 	// border:1px solid mediumseagreen;
 	padding-top: 30px;
 	@media (max-width:1050px) {
@@ -376,10 +397,10 @@ ul.genreArray {
 		li {
 			max-width:100%;
 			padding:10px 0px;
-			flex:1 0 200px;
-			@media (max-width:1050px) {
-				flex: 1 0 50%;
-			}
+			flex:1 0 250px;
+			// @media (max-width:1050px) {
+			// 	flex: 1 0 50%;
+			// }
 			@media (max-width:420px) {
 				// flex: 1 0 100%;
 				padding:10px 0px;
@@ -433,6 +454,8 @@ h3.discoverMore {
 }
 
 footer p {
+
+	bottom:0px;
 	margin:50px 40px 10px;
 	font-size: 10px;
 	text-transform: uppercase;
